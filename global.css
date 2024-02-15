@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box ;
+    font-family: sans-serif;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex: 18% 82%;
+    margin-left: 1%;
+    margin-top: 0%;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    flex: 18% 82%;
+    width: 21.9%;
+    height: 590px;
+    position: sticky;
+    top: 0;
+}
+
+.left-container-logo{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.left-container-arrow{
+    margin-left: 30%;
+}
+
+.left-container-all{
+    font-size: 10px;
+    color: #7D8186;
+}
+
+.dashboard-div{
+    height: 20px;
+    background-image: url(Assets/Horizontal-nav/Dashboard.svg);
+    background-repeat: no-repeat;
+    padding-left: 15%;
+    padding-top: 2%;
+    color: #7D8186;
+    font-size: 11px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.left-container-dashboard a{
+    text-decoration: none;
+}
+
+.left-container-employee{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.access-rights-div{
+    height: 20px;
+    background-image: url(Assets/Horizontal-nav/assign\ user.svg),url(Assets/right-vector.png);
+    background-repeat: no-repeat;
+    background-position: 0px,80%;
+    background-size: 10%;
+    padding-left: 15%;
+    padding-top: 2%;
+    color: #7D8186;
+    font-size: 11px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.left-container-access-rights a{
+    text-decoration: none;
+}
+
+.left-container-access-rights{
+    margin-top: 4%;
+}
+
+.left-container-update{
+    width: 95%;
+    margin-top: auto;
+    background-color: #FEF6F6;
+    padding: 6%;
+    border-radius: 7px;
+}
+
+.update-heading{
+    font-size: 12.5px;
+    font-weight: bold;
+    color: #F55C5C;
+}
+
+.update-description{
+    font-size: 13px;
+    color: #7D8186;
+}
+
+.btn-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.dismiss-btn{
+    color: #F56363;
+    background-color: #FDE6E6;
+    padding: 17% 27%;
+    font-size: 13px;
+    border-radius: 6px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.red-btn{
+    color: white;
+    padding: 17% 27%;
+    font-size: 13px;
+    margin-left: 75%;
+    background-color: #F44848;
+    border-radius: 6px;
+    border-style: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1230px) {
+    .left-container-arrow{
+        margin-left: 0%;
+    }
+  }
