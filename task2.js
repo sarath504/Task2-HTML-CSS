@@ -1,14 +1,3 @@
-function addData(){
-    let data=[
-        {"USER":"Edgar Jones","LOCATION":"Hyderabad","DEPARTMENT":"Product Engg","ROLE":"Full-stack Developer","EMP NO":"TZ002341","STATUS":"Active","JOIN DT":"12/03/2023"},
-        {"USER":"Edgar Jones","LOCATION":"Hyderabad","DEPARTMENT":"Product Engg","ROLE":"Full-stack Developer","EMP NO":"TZ002341","STATUS":"Active","JOIN DT":"12/03/2023"},
-        {"USER":"Edgar Jones","LOCATION":"Hyderabad","DEPARTMENT":"Product Engg","ROLE":"Full-stack Developer","EMP NO":"TZ002341","STATUS":"Active","JOIN DT":"12/03/2023"},
-        {"USER":"Edgar Jones","LOCATION":"Hyderabad","DEPARTMENT":"Product Engg","ROLE":"Full-stack Developer","EMP NO":"TZ002341","STATUS":"Active","JOIN DT":"12/03/2023"}
-    ];
-    
-}
-
-
 function checkAll(){
     var header=document.getElementsByClassName('parent-checkbox');
     var body=document.getElementsByClassName('body-checkbox');
@@ -21,7 +10,7 @@ function updateButtonColor(){
     var header=document.getElementsByClassName('parent-checkbox');
     var button=document.getElementsByClassName('delete-btn');
     var body=document.getElementsByClassName('body-checkbox');
-    var check=false;
+    var check=false
     var check2;
     for(var i=0;i<body.length;i++){
         if(body[i].checked){
